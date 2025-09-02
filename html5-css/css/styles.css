@@ -85,5 +85,10 @@ main h2{
 }
 
 ul{
-    color: #919151;
+    list-style-type: square;
+}
+
+ul > li{
+    color: #390D02;
+    text-align: center;
 }
