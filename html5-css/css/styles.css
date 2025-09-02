@@ -25,6 +25,7 @@ footer{
 
 h3{
     color: #390D02;
+    text-align: center;
 }
 
 #container{ 
@@ -75,4 +76,10 @@ main h2{
     display: block;
     margin: 28px auto;
     width: 550px;
+}
+
+#homepic2{
+    display: block;
+    margin: 20px auto;
+    width: 300px;
 }
