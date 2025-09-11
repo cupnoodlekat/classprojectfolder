@@ -1,0 +1,160 @@
+body{
+    background-color: #394159;
+    color: #260120;
+}
+
+img{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+}
+
+a{
+    color: #260120;
+}
+
+a:hover{
+    color: #730217;
+    text-decoration: none;
+}
+
+#container{
+    background-color: #732306;
+    width: 80%;
+    margin: 15px auto;
+    border: 5px solid #6D6B38;
+    padding: 10px;
+    border-radius: 15px;
+} 
+
+header{
+    text-align: center;
+    padding: 20px;
+    color: #260120;
+    border-bottom: 2px solid #260120;
+}
+
+h1{ 
+    font-size: 30px;
+    text-align: center;
+    color: #260120;
+} 
+
+h2{
+    text-align: center;
+    color: #260911;
+}
+
+p{
+    font-size: medium;
+    text-align: center;
+    color: #260120;
+}
+
+nav{
+    text-align: center;
+    border-bottom: 2px solid #260120;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{ 
+    display: block;
+    background-color: #6D6B38;
+    color: #260911;
+    width: 100px;
+    height: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav li a:hover{
+    color: #260120;
+    background-color: #394159;
+}
+
+.multi_col{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    color: #260120;
+}
+
+section, aside{
+    margin: 15px;
+    padding: 15px;
+}
+
+section{
+    width: 70%;
+}
+
+aside{
+    width: 30%;
+}
+
+section img{
+    border-radius: 10px;
+    border: 5px solid #6D6B38;
+}
+
+hr{
+    border: none;
+    background-color: #6D6B38;
+    height: 2px;
+}
+
+footer{
+    padding: 25px 0;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: #260911;
+}
+
+#banner{
+    display: block;
+    margin: 35px auto;
+    width: 680px;
+    border-radius: 10px;
+    border: 5px solid #6D6B38;
+}
+
+#battle{
+    display: block;
+    margin: 30px auto;
+    width: 680px;
+    border-radius: 10px;
+    border: 5px solid #6D6B38;
+}
+
+#lineup{
+    display: block;
+    margin: 30px auto;
+    width: 600px;
+    border-radius: 10px;
+    border: 5px solid #6D6B38;
+}
+
+.cast{
+    display: block;
+    margin: 35px auto;
+    width: 650px;
+    border-radius: 10px;
+    border: 5px solid #6D6B38;
+}
