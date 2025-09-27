@@ -61,119 +61,6 @@ a:hover {
     text-decoration: none;
 }
 
-/* Mobile Styles */
-
-header {
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 60px;
-    text-align: center;
-}
-
-#container{
-    padding: 20px;
-    border: 6px solid #145B11;
-}
-
-nav{
-    text-align: center;
-}
-
-nav ul{
-    padding: 0;
-    list-style-type: none;
-}
-
-nav li{ 
-    display: block;
-}
-
-nav li a{
-    display: block;
-    background-color:#073605;
-    height: 40px;
-    line-height: 40px;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: "Share Tech Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
-nav li a:hover{
-    background-color: #0a3e07;
-}
-
-main{
-    padding: 10px;
-    margin: 10px;
-}
-
-.residentcontent{
-    padding: 10px;
-}
-
-.Resident1{
-    padding-top: 5px;
-    padding-left: 5px;
-}
-
-footer{
-    padding: 30px;
-    text-align: center;
-    color: #199515;
-}
-
-li{
-    color: #199515;
-    font-size: larger;
-    font-family: "Share Tech Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* Tablet Styles */
-
-@media (min-width: 768px) {
-    nav{
-        border-bottom: 3px solid #199515;
-    }
-
-    nav li{
-        display: inline;
-    }
-}
-
-nav li a{
-    display: inline-block;
-    margin: 10px 10px;
-    height: 50px;
-    width: 130px;
-    border-radius: 5px;
-    border: 2px solid #199515;
-}
-
-/* Desktop Styles */
-@media (min-width: 1024px) {
-    #container{
-    width: 80%;
-    margin: 30px auto;
-    background-color: #0a3e07;
-}
-
-.col{
-    margin: 30px 0;
-}
-
-.col img{
-border-radius: 10px;
-border: 3px solid #199515;
-margin: 30px  auto;
-width: 40%;
-}
-
-
-
 #banner{
     display: block;
     margin: 35px auto;
@@ -299,4 +186,118 @@ h3{
     border-radius: 10px;
     border: 5px solid #199515;  
 }
+/* Mobile Styles */
+
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    text-align: center;
+}
+
+#container{
+    padding: 20px;
+    border: 6px solid #145B11;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li{ 
+    display: block;
+}
+
+nav li a{
+    display: block;
+    background-color:#073605;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav li a:hover{
+    background-color: #0a3e07;
+}
+
+main{
+    padding: 10px;
+    margin: 10px;
+}
+
+.residentcontent{
+    padding: 10px;
+}
+
+.Resident1{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+footer{
+    padding: 30px;
+    text-align: center;
+    color: #199515;
+}
+
+li{
+    color: #199515;
+    font-size: larger;
+    font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    nav{
+        border-bottom: 3px solid #199515;
+    }
+
+    nav li{
+        display: inline;
+    }
+}
+
+nav li a{
+    display: inline-block;
+    margin: 10px 10px;
+    height: 50px;
+    width: 130px;
+    border-radius: 5px;
+    border: 2px solid #199515;
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    #container{
+    width: 80%;
+    margin: 30px auto;
+    background-color: #0a3e07;
+}
+
+.col{
+    margin: 30px 0;
+}
+
+.col img{
+border-radius: 10px;
+border: 3px solid #199515;
+margin: 30px  auto;
+width: 40%;
+}
+
+
+
+
 }
